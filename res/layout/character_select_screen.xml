@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/characterselect" >
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="267dp"
+        android:layout_marginTop="186dp"
+        android:src="@drawable/mugshot_pink"
+        android:background="@null"
+        android:onClick="pickedDinoOne" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton1"
+        android:layout_marginLeft="160dp"
+        android:layout_toRightOf="@+id/imageButton1"
+        android:src="@drawable/mugshot_orange"
+        android:background="@null"
+        android:onClick="pickedDinoTwo" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton1"
+        android:layout_marginTop="72dp"
+        android:layout_toLeftOf="@+id/imageButton2"
+        android:background="@null"
+        android:src="@drawable/mugshot_green"
+        android:onClick="pickedDinoThree" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton3"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:src="@drawable/mugshot_blue" 
+        android:background="@null" 
+        android:onClick="pickedDinoFour" />
+
+</RelativeLayout>
